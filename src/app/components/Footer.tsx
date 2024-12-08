@@ -11,7 +11,7 @@ const Footer = () => {
                         <span className="ml-3  font-bold text-2xl">Bandage</span>
                     </a>
 
-                    <span className="inline-flex sm:ml-auto sm:mt-0 mt-4  sm:justify-start  text-blue-500">
+                    <span className="inline-flex ml-[1080px] sm:mt-0 mt-4  sm:justify-start  text-blue-500">
                         <a className="ml-3">
                             <FaFacebook className='size-5 ' />
                         </a>
@@ -48,11 +48,11 @@ const Footer = () => {
             </div>
             <div className="container px-6 py-24 mx-auto">
                 <div className="flex flex-wrap md:text-left  order-first">
-                    <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <div className="lg:w-1/6 md:w-1/2 w-full px-4">
                         <h2 className="title-font font-bold text-[#252B42] tracking-widest text-sm mb-3">
                             Company info
                         </h2>
-                        <nav className="list-none mb-10">
+                        <nav className="list-none mb-10 flex flex-col gap-3">
                             <li>
                                 <a className="text-gray-600 hover:text-gray-800">About Us</a>
                             </li>
@@ -67,11 +67,11 @@ const Footer = () => {
                             </li>
                         </nav>
                     </div>
-                    <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <div className="lg:w-1/6 md:w-1/2 w-full px-4">
                         <h2 className="title-font font-bold text-[#252B42] tracking-widest text-sm mb-3">
                             Legal
                         </h2>
-                        <nav className="list-none mb-10">
+                        <nav className="list-none mb-10 flex flex-col gap-3">
                             <li>
                                 <a className="text-gray-600 hover:text-gray-800">About Us</a>
                             </li>
@@ -86,11 +86,11 @@ const Footer = () => {
                             </li>
                         </nav>
                     </div>
-                    <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <div className="lg:w-1/6 md:w-1/2 w-full px-4">
                         <h2 className="title-font font-bold text-[#252B42] tracking-widest text-sm mb-3">
                             Features
                         </h2>
-                        <nav className="list-none mb-10">
+                        <nav className="list-none mb-10 flex flex-col gap-3">
                             <li>
                                 <a className="text-gray-600 hover:text-gray-800">Business Marketing</a>
                             </li>
@@ -105,11 +105,11 @@ const Footer = () => {
                             </li>
                         </nav>
                     </div>
-                    <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <div className="lg:w-1/6 md:w-1/2 w-full px-4">
                         <h2 className="title-font font-bold text-[#252B42] tracking-widest text-sm mb-3">
                             Resources
                         </h2>
-                        <nav className="list-none mb-10">
+                        <nav className="list-none mb-10 flex flex-col gap-3">
                             <li>
                                 <a className="text-gray-600 hover:text-gray-800">IOS & Android</a>
                             </li>
@@ -124,7 +124,7 @@ const Footer = () => {
                             </li>
                         </nav>
                     </div>
-                    <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <div className="lg:w-2/6 md:w-1/2 w-full px-4">
                         <h2 className="title-font font-bold text-[#252B42] tracking-widest text-sm mb-3">
                             Get In Touch
                         </h2>
@@ -152,8 +152,8 @@ const Footer = () => {
             <div className="bg-gray-100">
                 <div className="container px-6 py-6 mx-auto flex items-center text-center sm:flex-row flex-col">
 
-                    <p className="text-sm font-bold text-[#737373] sm:ml-6 sm:mt-0 mt-4">
-                    Made With Love By <br/>
+                    <p className="text-sm font-bold text-[#737373] ml-3 sm:mt-0 mt-4">
+                    Made With Love By 
                     Finland All Right Reserved
                     </p>
 

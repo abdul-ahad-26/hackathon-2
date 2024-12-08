@@ -1,33 +1,47 @@
 import Link from 'next/link'
 import React from 'react'
 import { BiMenuAltRight } from 'react-icons/bi'
+import { CiUser } from 'react-icons/ci'
 import { IoCartOutline, IoSearchOutline } from 'react-icons/io5'
 
 const Header = () => {
    return (
-      <header className='bg-[#FFFFFF] max-w-[1440px] pt-5 pb-28 flex  m-auto flex-col md:flex-row'>
-         <div className='flex justify-around mt-4 items-center'>
-            <Link href="/">
-               <div className='font-bold text-2xl'>Bandage
-               </div>
-            </Link>
+      <header className='container bg-[#FFFFFF] mx-auto  h-16 flex   items-center gap-4 px-6 py-6 '>
 
-         </div>
-         <div className='flex gap-4'>
+         <Link href="/">
+            <div className='font-bold text-2xl ml-3'>Bandage
+            </div>
+         </Link>
+
+
+         <nav className='ml-36'>
+            <ul className='flex   gap-9 font-normal  text-[#737373] '>
+               <li><Link href='/'>Home</Link></li>
+               <li><select name="shop" id="shop">
+                  <option value="shop">
+                     <Link href="/">Shop</Link>
+                  </option>
+               </select>
+               </li>
+               <li><Link href='/'>About</Link></li>
+               <li><Link href='/'>Blog</Link></li>
+               <li><Link href='/'>Contact</Link></li>
+               <li><Link href='/'>Pages</Link></li>
+
+            </ul>
+         </nav>
+         <div className='flex ml-64 gap-4'>
+            <div className='flex gap-2 items-center '>
+               <CiUser />
+               <Link href="/">Login / Register</Link>
+               
+            </div>
+
+
             <IoSearchOutline className='size-6 text-black ' />
             <IoCartOutline className='size-6 text-black ' />
             <BiMenuAltRight className='size-6 text-black ' />
          </div>
-
-         <nav >
-            <ul className='flex flex-col text-center mt-24 gap-9 font-normal text-3xl text-[#737373] md:flex-row'>
-               <li><Link href='/'>Home</Link></li>
-               <li><Link href='/'>Product</Link></li>
-               <li><Link href='/'>Pricing</Link></li>
-               <li><Link href='/'>Contact</Link></li>
-
-            </ul>
-         </nav>
 
       </header>
    )
