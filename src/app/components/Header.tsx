@@ -6,7 +6,7 @@ import { IoCartOutline, IoSearchOutline } from 'react-icons/io5'
 
 const Header = () => {
    return (
-      <header className='container bg-[#FFFFFF] mx-auto  h-16 flex   items-center gap-4 px-6 py-6 '>
+      <header className='max-w-[1440px] px-4 bg-[#FFFFFF] mx-auto  h-16 flex   items-center gap-4  py-6 '>
 
          <Link href="/">
             <div className='font-bold text-2xl ml-3'>Bandage
@@ -18,8 +18,8 @@ const Header = () => {
             <ul className='flex   gap-9 font-normal  text-[#737373] '>
                <li><Link href='/'>Home</Link></li>
                <li><select name="shop" id="shop">
-                  <option value="shop">
-                     <Link href="/">Shop</Link>
+                  <option value="/">
+                     Shop
                   </option>
                </select>
                </li>

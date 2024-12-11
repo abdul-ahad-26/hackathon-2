@@ -3,9 +3,9 @@ import { FaFacebook } from 'react-icons/fa'
 
 const Footer = () => {
     return (
-        <footer className="text-gray-600 body-font">
+        <footer className="max-w-[1440px] text-gray-600 body-font mx-auto">
             <div className="bg-gray-100">
-                <div className="container px-6 py-6 mx-auto flex sm:flex-row flex-col">
+                <div className=" px-4 py-6 mx-auto flex sm:flex-row flex-col">
                     <a className="flex title-font font-medium items-center md:justify-start  text-gray-900">
 
                         <span className="ml-3  font-bold text-2xl">Bandage</span>
@@ -46,7 +46,7 @@ const Footer = () => {
                     </span>
                 </div>
             </div>
-            <div className="container px-6 py-24 mx-auto">
+            <div className=" px-4 py-24 mx-auto">
                 <div className="flex flex-wrap md:text-left  order-first">
                     <div className="lg:w-1/6 md:w-1/2 w-full px-4">
                         <h2 className="title-font font-bold text-[#252B42] tracking-widest text-sm mb-3">
@@ -128,33 +128,33 @@ const Footer = () => {
                         <h2 className="title-font font-bold text-[#252B42] tracking-widest text-sm mb-3">
                             Get In Touch
                         </h2>
-                    <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap items-center md:justify-start">
-                        <div className="relative w-40 sm:w-auto xl:mr-0 lg:mr-0 sm:mr-0">
-                            <input
-                                type="text"
-                                id="footer-field"
-                                name="footer-field"
-                                placeholder="Your Email"
-                                className="w-full bg-[#E6E6E6] bg-opacity-50  border border-gray-200 rounded-sm focus:bg-transparent focus:ring-2outline-none text-[#737373] py-2 px-3 leading-8 transition-colors duration-200 ease-in-out h-[58px] font-normal text-sm"
-                            />
+                        <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap items-center md:justify-start">
+                            <div className="relative w-40 sm:w-auto xl:mr-0 lg:mr-0 sm:mr-0">
+                                <input
+                                    type="text"
+                                    id="footer-field"
+                                    name="footer-field"
+                                    placeholder="Your Email"
+                                    className="w-full bg-[#E6E6E6] bg-opacity-50  border border-gray-200 rounded-sm focus:bg-transparent focus:ring-2outline-none text-[#737373] py-2 px-3 leading-8 transition-colors duration-200 ease-in-out h-[58px] font-normal text-sm"
+                                />
+                            </div>
+                            <button className="lg:mt-0 xl:mt-0 -ml-px flex-shrink-0 inline-flex  items-center justify-center text-white bg-[#23A6F0]  py-0 px-6 focus:outline-none rounded-sm h-[58px]">
+                                Subscribe
+                            </button>
                         </div>
-                        <button className="lg:mt-0 xl:mt-0 -ml-px flex-shrink-0 inline-flex items-center justify-center text-white bg-[#23A6F0]  py-0 px-6 focus:outline-none rounded-sm h-[58px]">
-                            Subscribe
-                        </button>
+                        <p className="text-gray-500 text-sm mt-2 md:text-left ">
+                            lore imp sum dolor Amit
+                        </p>
                     </div>
-                    <p className="text-gray-500 text-sm mt-2 md:text-left ">
-                        lore imp sum dolor Amit
-                    </p>
-                    </div>                  
 
                 </div>
             </div>
             <div className="bg-gray-100">
-                <div className="container px-6 py-6 mx-auto flex items-center text-center sm:flex-row flex-col">
+                <div className=" px-4 py-6 mx-auto flex items-center text-center sm:flex-row flex-col">
 
                     <p className="text-sm font-bold text-[#737373] ml-3 sm:mt-0 mt-4">
-                    Made With Love By 
-                    Finland All Right Reserved
+                        Made With Love By
+                        Finland All Right Reserved
                     </p>
 
                 </div>
