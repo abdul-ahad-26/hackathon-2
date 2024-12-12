@@ -5,13 +5,13 @@ const Footer = () => {
     return (
         <footer className=" text-gray-600 body-font ">
             <div className="bg-gray-100">
-                <div className=" container  py-6 justify-between flex sm:flex-row flex-col">
+                <div className=" container  py-6 justify-between flex sm:flex-row items-center">
                     <a className="flex title-font font-medium items-center md:justify-start  text-gray-900">
 
                         <span className="  font-bold text-2xl">Bandage</span>
                     </a>
 
-                    <span className="inline-flex  sm:mt-0 mt-4  sm:justify-start  text-blue-500">
+                    <span className="inline-flex  sm:mt-0   sm:justify-start  text-blue-500">
                         <a className="ml-3">
                             <FaFacebook className='size-5 ' />
                         </a>
@@ -124,6 +124,8 @@ const Footer = () => {
                             </li>
                         </nav>
                     </div>
+
+                    
                     <div className="lg:w-2/6 md:w-1/2 w-full ">
                         <h2 className="title-font font-bold text-[#252B42] tracking-widest text-sm mb-3">
                             Get In Touch
