@@ -3,15 +3,15 @@ import { FaFacebook } from 'react-icons/fa'
 
 const Footer = () => {
     return (
-        <footer className="max-w-[1440px] text-gray-600 body-font mx-auto">
+        <footer className=" text-gray-600 body-font ">
             <div className="bg-gray-100">
-                <div className=" px-4 py-6 mx-auto flex sm:flex-row flex-col">
+                <div className=" container  py-6 justify-between flex sm:flex-row flex-col">
                     <a className="flex title-font font-medium items-center md:justify-start  text-gray-900">
 
-                        <span className="ml-3  font-bold text-2xl">Bandage</span>
+                        <span className="  font-bold text-2xl">Bandage</span>
                     </a>
 
-                    <span className="inline-flex ml-[1080px] sm:mt-0 mt-4  sm:justify-start  text-blue-500">
+                    <span className="inline-flex  sm:mt-0 mt-4  sm:justify-start  text-blue-500">
                         <a className="ml-3">
                             <FaFacebook className='size-5 ' />
                         </a>
@@ -46,9 +46,9 @@ const Footer = () => {
                     </span>
                 </div>
             </div>
-            <div className=" px-4 py-24 mx-auto">
+            <div className=" container py-24 ">
                 <div className="flex flex-wrap md:text-left  order-first">
-                    <div className="lg:w-1/6 md:w-1/2 w-full px-4">
+                    <div className="lg:w-1/6 md:w-1/2 w-full ">
                         <h2 className="title-font font-bold text-[#252B42] tracking-widest text-sm mb-3">
                             Company info
                         </h2>
@@ -128,8 +128,8 @@ const Footer = () => {
                         <h2 className="title-font font-bold text-[#252B42] tracking-widest text-sm mb-3">
                             Get In Touch
                         </h2>
-                        <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap items-center md:justify-start">
-                            <div className="relative w-40 sm:w-auto xl:mr-0 lg:mr-0 sm:mr-0">
+                        <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap items-center md:justify-start lg:max-xl:gap-2 gap-0">
+                            <div className="relative w-40 sm:w-auto xl:mr-0 lg:mr-0 lg:w-full sm:mr-0">
                                 <input
                                     type="text"
                                     id="footer-field"
@@ -150,9 +150,9 @@ const Footer = () => {
                 </div>
             </div>
             <div className="bg-gray-100">
-                <div className=" px-4 py-6 mx-auto flex items-center text-center sm:flex-row flex-col">
+                <div className="container  py-6  flex items-center text-center sm:flex-row flex-col">
 
-                    <p className="text-sm font-bold text-[#737373] ml-3 sm:mt-0 mt-4">
+                    <p className="text-sm font-bold text-[#737373]  sm:mt-0 mt-4">
                         Made With Love By
                         Finland All Right Reserved
                     </p>

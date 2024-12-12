@@ -1,50 +1,47 @@
-import Link from 'next/link'
-import React from 'react'
-import { BiMenuAltRight } from 'react-icons/bi'
-import { CiUser } from 'react-icons/ci'
-import { IoCartOutline, IoSearchOutline } from 'react-icons/io5'
+import Link from "next/link";
+import { FaUser, FaSearch, FaShoppingCart, FaHeart } from "react-icons/fa";
 
-const Header = () => {
-   return (
-      <header className='max-w-[1440px] px-4 bg-[#FFFFFF] mx-auto  h-16 flex   items-center gap-4  py-6 '>
+export default function Header() {
+  return (
+    <header className="bg-white shadow">
+      <div className="container  ">
+        <div className="flex items-center justify-between h-16">
+          {/* Left Logo */}
+          <div className="flex-shrink-0">
+            <h1 className="text-2xl font-bold text-[#252B42]">Bandage</h1>
+          </div>
 
-         <Link href="/">
-            <div className='font-bold text-2xl ml-3'>Bandage
+          {/* Center Navigation */}
+          <nav className="hidden lg:flex space-x-8 text-[#737373] text-sm font-bold ">
+            <Link href="/" className="hover:text-gray-900">Home</Link>
+            <select name="shop" id="shop" className="cursor-pointer">
+              <option value="shop" >Shop</option>
+            </select>
+
+            <Link href="/" className="hover:text-gray-900">About</Link>
+            <Link href="/" className="hover:text-gray-900">Blog</Link>
+            <Link href="/" className="hover:text-gray-900">Contact</Link>
+            <Link href="/" className="hover:text-gray-900">Pages</Link>
+          </nav>
+
+          {/* Right Icons */}
+          <div className="flex items-center space-x-6 text-[#23A6F0] font-bold text-sm">
+            <Link href="/" className="flex items-center space-x-1">
+              <FaUser className="text-[20px]" />
+              <span className="hidden sm:inline">Login / Register</span>
+            </Link>
+            <FaSearch className="text-[20px]" />
+            <div className="flex gap-1">
+              <FaShoppingCart className="text-[20px]" />
+              <span >1</span>
             </div>
-         </Link>
-
-
-         <nav className='ml-36'>
-            <ul className='flex   gap-9 font-normal  text-[#737373] '>
-               <li><Link href='/'>Home</Link></li>
-               <li><select name="shop" id="shop">
-                  <option value="/">
-                     Shop
-                  </option>
-               </select>
-               </li>
-               <li><Link href='/'>About</Link></li>
-               <li><Link href='/'>Blog</Link></li>
-               <li><Link href='/'>Contact</Link></li>
-               <li><Link href='/'>Pages</Link></li>
-
-            </ul>
-         </nav>
-         <div className='flex ml-64 gap-4'>
-            <div className='flex gap-2 items-center '>
-               <CiUser />
-               <Link href="/">Login / Register</Link>
-               
+            <div className="flex gap-1">
+              <FaHeart className="text-[20px]" />
+              <span >1</span>
             </div>
-
-
-            <IoSearchOutline className='size-6 text-black ' />
-            <IoCartOutline className='size-6 text-black ' />
-            <BiMenuAltRight className='size-6 text-black ' />
-         </div>
-
-      </header>
-   )
+          </div>
+        </div>
+      </div>
+    </header>
+  );
 }
-
-export default Header
