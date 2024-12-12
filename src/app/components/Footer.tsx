@@ -67,7 +67,7 @@ const Footer = () => {
                             </li>
                         </nav>
                     </div>
-                    <div className="lg:w-1/6 md:w-1/2 w-full px-4">
+                    <div className="lg:w-1/6 md:w-1/2 w-full ">
                         <h2 className="title-font font-bold text-[#252B42] tracking-widest text-sm mb-3">
                             Legal
                         </h2>
@@ -86,7 +86,7 @@ const Footer = () => {
                             </li>
                         </nav>
                     </div>
-                    <div className="lg:w-1/6 md:w-1/2 w-full px-4">
+                    <div className="lg:w-1/6 md:w-1/2 w-full ">
                         <h2 className="title-font font-bold text-[#252B42] tracking-widest text-sm mb-3">
                             Features
                         </h2>
@@ -105,7 +105,7 @@ const Footer = () => {
                             </li>
                         </nav>
                     </div>
-                    <div className="lg:w-1/6 md:w-1/2 w-full px-4">
+                    <div className="lg:w-1/6 md:w-1/2 w-full ">
                         <h2 className="title-font font-bold text-[#252B42] tracking-widest text-sm mb-3">
                             Resources
                         </h2>
@@ -124,7 +124,7 @@ const Footer = () => {
                             </li>
                         </nav>
                     </div>
-                    <div className="lg:w-2/6 md:w-1/2 w-full px-4">
+                    <div className="lg:w-2/6 md:w-1/2 w-full ">
                         <h2 className="title-font font-bold text-[#252B42] tracking-widest text-sm mb-3">
                             Get In Touch
                         </h2>
