@@ -5,14 +5,14 @@ const Footer = () => {
     return (
         <footer className=" text-gray-600 body-font ">
             <div className="bg-gray-100">
-                <div className=" container  py-6 justify-between flex sm:flex-row items-center">
+                <div className="  container px-8 sm:px-[15px] py-6 justify-between flex flex-col gap-4  sm:flex-row sm:items-center">
                     <a className="flex title-font font-medium items-center md:justify-start  text-gray-900">
 
                         <span className="  font-bold text-2xl">Bandage</span>
                     </a>
 
                     <span className="inline-flex  sm:mt-0   sm:justify-start  text-blue-500">
-                        <a className="ml-3">
+                        <a className="sm:ml-3">
                             <FaFacebook className='size-5 ' />
                         </a>
                         <a className="ml-5">
@@ -46,7 +46,7 @@ const Footer = () => {
                     </span>
                 </div>
             </div>
-            <div className=" container py-24 ">
+            <div className=" container px-8 [15px] py-24 ">
                 <div className="flex flex-wrap md:text-left  order-first">
                     <div className="lg:w-1/6 md:w-1/2 w-full ">
                         <h2 className="title-font font-bold text-[#252B42] tracking-widest text-sm mb-3">
@@ -130,8 +130,8 @@ const Footer = () => {
                         <h2 className="title-font font-bold text-[#252B42] tracking-widest text-sm mb-3">
                             Get In Touch
                         </h2>
-                        <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap items-center md:justify-start lg:max-xl:gap-2 gap-0">
-                            <div className="relative w-40 sm:w-auto xl:mr-0 lg:mr-0 lg:w-full sm:mr-0">
+                        <div className="flex  xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap items-center md:justify-start lg:max-xl:gap-2 gap-0">
+                            <div className="relative  w-32 sm:w-auto xl:mr-0 lg:mr-0 lg:w-full sm:mr-0">
                                 <input
                                     type="text"
                                     id="footer-field"
@@ -140,7 +140,7 @@ const Footer = () => {
                                     className="w-full bg-[#E6E6E6] bg-opacity-50  border border-gray-200 rounded-sm focus:bg-transparent focus:ring-2outline-none text-[#737373] py-2 px-3 leading-8 transition-colors duration-200 ease-in-out h-[58px] font-normal text-sm"
                                 />
                             </div>
-                            <button className="lg:mt-0 xl:mt-0 -ml-px flex-shrink-0 inline-flex  items-center justify-center text-white bg-[#23A6F0]  py-0 px-6 focus:outline-none rounded-sm h-[58px]">
+                            <button className="lg:mt-0  xl:mt-0 -ml-px flex-shrink-0 inline-flex  items-center justify-center text-white bg-[#23A6F0]  py-0 px-4 focus:outline-none rounded-sm h-[58px]">
                                 Subscribe
                             </button>
                         </div>

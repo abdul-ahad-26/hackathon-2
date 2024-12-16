@@ -1,9 +1,13 @@
+"use client"
 import React from 'react'
-import { CiFacebook, CiTwitter } from 'react-icons/ci'
-import { FaInstagram } from 'react-icons/fa'
+import { FaFacebookF } from 'react-icons/fa'
 import { HiOutlinePhone } from 'react-icons/hi'
-import { RiYoutubeLine } from 'react-icons/ri'
 import { TfiEmail } from 'react-icons/tfi'
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
+
 
 const HeaderTop = () => {
   return (
@@ -22,14 +26,16 @@ const HeaderTop = () => {
         <div className='items-center'>Follow Us  and get a chance to win 80% off</div>
         <div className=' flex items-center gap-[10px] '>
           <div>Follow Us :</div>
-          <FaInstagram className='text-[20px]' />
-          <RiYoutubeLine className='text-[24px]' />
-          <CiFacebook className='text-[22px]' />
-          <CiTwitter className='text-[24px]' />
-
-
-
-
+          <InstagramIcon/>
+          <YouTubeIcon />
+          
+          {/* <FaFacebookF className='bg-white text-black  rounded-xl text-xl pt-1 '/> */}
+          <FacebookRoundedIcon/>
+          
+          <TwitterIcon/>
+          
+          
+          
         </div>
       </div>
     </div>
