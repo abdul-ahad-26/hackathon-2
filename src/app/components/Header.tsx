@@ -1,6 +1,5 @@
 'use client'
 import Link from "next/link";
-import { FaUser } from "react-icons/fa";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
@@ -9,7 +8,7 @@ import { BiMenuAltRight } from "react-icons/bi";
 
 export default function Header() {
   return (
-    <header className="bg-white shadow">
+    <header className="bg-white ">
       <div className="container  px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center lg:gap-20">

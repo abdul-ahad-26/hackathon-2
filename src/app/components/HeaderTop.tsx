@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-import { FaFacebookF } from 'react-icons/fa'
 import { HiOutlinePhone } from 'react-icons/hi'
 import { TfiEmail } from 'react-icons/tfi'
 import YouTubeIcon from '@mui/icons-material/YouTube';

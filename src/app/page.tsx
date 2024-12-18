@@ -6,6 +6,7 @@ export default function HeroSection() {
     <div>
       <Hero/>
       <EditorsPick/>
+      
     </div>
 
   );
