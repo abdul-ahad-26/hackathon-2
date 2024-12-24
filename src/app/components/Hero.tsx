@@ -1,6 +1,6 @@
 export default function HeroSection() {
     return (
-      <section className=" h-[761px]  bg-cover bg-center no-repeat flex items-center  justify-center md:justify-start
+      <section className="max-w-[1440px] mx-auto  h-[761px]  bg-cover bg-center no-repeat flex items-center  md:pl-20 
       "style={{
           backgroundImage: "url('/hero1.png')",
           
@@ -8,7 +8,7 @@ export default function HeroSection() {
   
   
         
-        <div className="container flex flex-col gap-6 text-white text-center sm:text-left items-center sm:items-start  lg:ml-24 ">
+        <div className="max-w-[1080px] px-4 mx-auto flex flex-col gap-6 text-white text-center sm:text-left items-center sm:items-start  lg:ml-32 ">
           <h5 className="font-bold">SUMMER 2020</h5>
           <h1 className="font-bold text-[40px] lg:text-[58px]">NEW COLLECTION</h1>
           <h4 className="text-xl max-w-[367px]">We know how large objects will act,

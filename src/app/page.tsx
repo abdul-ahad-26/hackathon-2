@@ -1,12 +1,20 @@
+import ClassicProduct from "./components/ClassicProduct";
 import EditorsPick from "./components/EditorsPick";
+import FeaturedProducts from "./components/FeaturedProducts";
 import Hero from "./components/Hero";
+import NeuralUniverse from "./components/NeuralUniverse";
+
+
 
 export default function HeroSection() {
   return (
-    <div>
-      <Hero/>
-      <EditorsPick/>
-      
+    <div >
+      <Hero />
+      <EditorsPick />
+      <FeaturedProducts />
+      <ClassicProduct />
+      <NeuralUniverse />
+      <FeaturedProducts />
     </div>
 
   );
