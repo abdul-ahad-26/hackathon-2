@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const NeuralUniverse = () => {
   return (
-    <div className="bg-white pt-20 md:pt-0">
+    <section className="bg-white pt-20 md:pt-0">
     <div className="max-w-[1080px] px-4 mx-auto flex flex-col md:flex-row items-center gap-20 ">
 
       {/* Image Section */}
@@ -36,7 +36,7 @@ const NeuralUniverse = () => {
         </div>
       </div>
     </div>
-  </div>
+  </section>
   )
 }
 

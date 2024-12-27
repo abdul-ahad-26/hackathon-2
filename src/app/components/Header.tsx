@@ -18,6 +18,7 @@ export default function Header() {
           {/* Left Logo */}
           <div className=" md:w-[185px]">
             <Link href="/"><h1 className="text-2xl font-bold text-[#252B42]">Bandage</h1></Link>
+
           </div>
 
           {/* Center Navigation */}
@@ -57,7 +58,7 @@ export default function Header() {
 
 
           {/* Right Icons */}
-          <div className="flex md:w-[325px] justify-end  text-[#252B42] items-center gap-4 md:gap-6 md:text-[#23A6F0] font-bold text-sm">
+          <div className="flex  justify-end  text-[#252B42] items-center gap-4 md:gap-6 md:text-[#23A6F0] font-bold text-sm">
             <Link href="/" className="flex items-center gap-1 hover:text-blue-700">
               <PermIdentityIcon className="text-[20px] hidden sm:inline" />
               <span className="hidden sm:inline">Login / Register</span>
@@ -67,22 +68,22 @@ export default function Header() {
             />
 
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="hidden  cursor-pointer hover:text-blue-700 size-8 bi bi-search" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="hidden md:inline  cursor-pointer hover:text-blue-700 size-5 bi bi-search" viewBox="0 0 16 16">
               <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
             </svg>
             <div className="flex items-center gap-1">
               <ShoppingCartOutlinedIcon
-                className="cursor-pointer hover:text-blue-700 size-7 md:hidden"
+                className="cursor-pointer hover:text-blue-700 size-7 md:hidden "
               />
 
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-cart sm:size-5 cursor-pointer hover:text-blue-700 size-7 hidden md:inline" viewBox="0 0 16 16">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="hidden bi bi-cart size-5 cursor-pointer hover:text-blue-700   md:inline" viewBox="0 0 16 16">
                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
               </svg>
-              <span className="text-sm px-1.5 py-0.5 font-normal hidden sm-inline">
+              <span className="text-sm px-1.5 py-0.5 font-normal hidden sm:inline">
                 1
               </span>
             </div>
-            <div className="sm:inline items-center gap-1 hidden ">
+            <div className="hidden items-center sm:flex gap-1  ">
               <FavoriteBorderOutlinedIcon
                 className=" size-6 cursor-pointer hover:text-blue-700 "
               />

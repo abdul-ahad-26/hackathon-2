@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const ClassicProduct = () => {
   return (
-    <div className='bg-[#23856D] '>
+    <section className='bg-[#23856D] '>
         <div className='max-w-[1080px] px-4 mx-auto flex flex-col  md:flex-row  pt-16 justify-between items-center md:items-end'>
         <div className=' flex flex-col  py-28 gap-10  text-white  md:text-start max-w-[350px] text-center'>
             <h4 className='text-xl'>SUMMER 2020</h4>
@@ -14,12 +14,12 @@ const ClassicProduct = () => {
                 <button className='bg-[#2DC071] text-sm font-bold px-8 py-4 rounded'>ADD TO CART</button>
             </div>
         </div>
-        <Image src="/classic-product1.png" alt='classic product' height={685} width={443}/>
+        <Image src="/classic-product1.png" alt='classic product' height={685} width={443} className='md:max-lg:w-[300px] md:max-lg:self-center'/>
 
         </div>
         
 
-    </div>
+    </section>
   )
 }
 

@@ -10,7 +10,7 @@ import Link from 'next/link';
 
 const HeaderTop = () => {
   return (
-    <div className='bg-[#252B42]'>
+    <section className='bg-[#252B42]'>
       <div className="h-[58px] max-w-[1440px] mx-auto px-10  text-white font-bold text-sm  items-center justify-between hidden lg:flex xl:text-base">
         <div className=' flex gap-6  '>
           <div className="flex items-center gap-2">
@@ -33,7 +33,7 @@ const HeaderTop = () => {
           <Link href="/"><TwitterIcon /></Link>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

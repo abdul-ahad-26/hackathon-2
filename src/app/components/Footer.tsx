@@ -23,22 +23,23 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <hr className='max-w-[1080px] px-4 mx-auto '/>
 
             {/* footer body */}
-            <div className=" py-10">
+            <div className=" py-16">
                 <div className="max-w-[1080px] px-4 mx-auto ">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6 lg:gap-10">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6 lg:gap-8">
                         {/* Column 1 */}
                         <div>
-                            <h3 className="font-bold text-lg mb-4">Company Info</h3>
+                            <h3 className="font-bold text-lg mb-5">Company Info</h3>
                             <ul>
-                                <li className="text-sm font-bold text-[#737373] mb-2 hover:text-black transition">
+                                <li className="text-sm font-bold text-[#737373] mb-3 hover:text-black transition">
                                     <a href="/">About Us</a>
                                 </li>
-                                <li className="text-sm font-bold text-[#737373] mb-2 hover:text-black transition">
-                                    <a href="/">Career</a>
+                                <li className="text-sm font-bold text-[#737373] mb-3 hover:text-black transition">
+                                    <a href="/">Carrier</a>
                                 </li>
-                                <li className="text-sm font-bold text-[#737373] mb-2 hover:text-black transition">
+                                <li className="text-sm font-bold text-[#737373] mb-3 hover:text-black transition">
                                     <a href="/">We are hiring</a>
                                 </li>
                                 <li className="text-sm font-bold text-[#737373] hover:text-black transition">
@@ -48,33 +49,33 @@ const Footer = () => {
                         </div>
                         {/* Column 2 */}
                         <div>
-                            <h3 className="font-bold text-lg mb-4">Legal</h3>
+                            <h3 className="font-bold text-lg mb-5">Legal</h3>
                             <ul>
-                                <li className="text-sm font-bold text-[#737373] mb-2 hover:text-black transition">
-                                    <a href="/">Privacy Policy</a>
+                            <li className="text-sm font-bold text-[#737373] mb-3 hover:text-black transition">
+                                    <a href="/">About Us</a>
                                 </li>
-                                <li className="text-sm font-bold text-[#737373] mb-2 hover:text-black transition">
-                                    <a href="/">Terms of Service</a>
+                                <li className="text-sm font-bold text-[#737373] mb-3 hover:text-black transition">
+                                    <a href="/">Carrier</a>
                                 </li>
-                                <li className="text-sm font-bold text-[#737373] mb-2 hover:text-black transition">
-                                    <a href="/">Cookie Policy</a>
+                                <li className="text-sm font-bold text-[#737373] mb-3 hover:text-black transition">
+                                    <a href="/">We are hiring</a>
                                 </li>
                                 <li className="text-sm font-bold text-[#737373] hover:text-black transition">
-                                    <a href="/">FAQs</a>
+                                    <a href="/">Blog</a>
                                 </li>
                             </ul>
                         </div>
                         {/* Column 3 */}
                         <div>
-                            <h3 className="font-bold text-lg mb-4">Features</h3>
+                            <h3 className="font-bold text-lg mb-5">Features</h3>
                             <ul>
-                                <li className="text-sm font-bold text-[#737373] mb-2 hover:text-black transition">
+                                <li className="text-sm font-bold text-[#737373] mb-3 hover:text-black transition">
                                     <a href="/">Business Marketing</a>
                                 </li>
-                                <li className="text-sm font-bold text-[#737373] mb-2 hover:text-black transition">
+                                <li className="text-sm font-bold text-[#737373] mb-3 hover:text-black transition">
                                     <a href="/">User Analytics</a>
                                 </li>
-                                <li className="text-sm font-bold text-[#737373] mb-2 hover:text-black transition">
+                                <li className="text-sm font-bold text-[#737373] mb-3 hover:text-black transition">
                                     <a href="/">Live Chat</a>
                                 </li>
                                 <li className="text-sm font-bold text-[#737373] hover:text-black transition">
@@ -84,15 +85,15 @@ const Footer = () => {
                         </div>
                         {/* Column 4 */}
                         <div>
-                            <h3 className="font-bold text-lg mb-4">Resources</h3>
+                            <h3 className="font-bold text-lg mb-5">Resources</h3>
                             <ul>
-                                <li className="text-sm font-bold text-[#737373] mb-2 hover:text-black transition">
+                                <li className="text-sm font-bold text-[#737373] mb-3 hover:text-black transition">
                                     <a href="/">iOS & Android</a>
                                 </li>
-                                <li className="text-sm font-bold text-[#737373] mb-2 hover:text-black transition">
+                                <li className="text-sm font-bold text-[#737373] mb-3 hover:text-black transition">
                                     <a href="/">Watch a Demo</a>
                                 </li>
-                                <li className="text-sm font-bold text-[#737373] mb-2 hover:text-black transition">
+                                <li className="text-sm font-bold text-[#737373] mb-3 hover:text-black transition">
                                     <a href="/">Customers</a>
                                 </li>
                                 <li className="text-sm font-bold text-[#737373] hover:text-black transition">
@@ -102,8 +103,8 @@ const Footer = () => {
                         </div>
                         {/* Column 5 */}
                         <div className="lg:col-span-2">
-                            <h3 className="font-bold text-lg mb-4">Get In Touch</h3>
-                            <form className="flex  mb-4">
+                            <h3 className="font-bold text-lg mb-5">Get In Touch</h3>
+                            <form className="flex  mb-5">
                                 <input
                                     type="text"
                                     placeholder="Your Email"

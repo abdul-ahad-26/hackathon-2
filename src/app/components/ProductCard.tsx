@@ -5,8 +5,8 @@ import Image from 'next/image'
 const ProductCard = () => {
     return (
 
-        <div className='h-[615px]  '>
-            <Image src="/product1.png" height={427} width={240} className='h-[427px] object-cover' alt='product image' />
+        <div className=' '>
+            <Image src="/product1.png" height={427} width={239} className='w-full h-auto   object-cover ' alt='product image' />
             <div className='flex flex-col text-center items-center justify-center gap-3 py-6'>
                 <p className='font-bold text-[#252B42]'>Graphic Design</p>
                 <p className='font-bold text-[#737373] text-sm'>English Department</p>

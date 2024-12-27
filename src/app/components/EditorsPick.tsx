@@ -1,8 +1,9 @@
 import React from 'react'
+import Image from 'next/image';
 
 const EditorsPick = () => {
     return (
-        <div className='bg-[#FAFAFA]  py-20 '>
+        <section className='bg-[#FAFAFA]  py-20 '>
             <div className='max-w-[1080px] px-4 mx-auto'>
 
 
@@ -16,21 +17,21 @@ const EditorsPick = () => {
 
 
                     <div className='relative'>
-                        <img src="/men.png" alt="men-cloths" className='h-[500px] w-[324px] lg:w-[510px] object-cover' />
+                        <Image src="/men.png" alt="men-cloths" width={509} height={500} className='h-[500px] w-[324px] lg:w-[510px] object-cover' />
                         <button className='w-[170px] max-h-[48px] bg-white absolute bottom-8 left-8 font-bold'>MEN</button>
                     </div>
                     <div className='flex flex-col lg:flex-row gap-6  '>
                         <div className='relative'>
-                            <img src="/women.png" alt="women-cloths" className='h-[500px] w-[324px] lg:w-[240px] object-cover' />
+                            <Image width={509} height={500} src="/women.png" alt="women-cloths" className='h-[500px] w-[324px] lg:w-[240px] object-cover' />
                             <button className='w-[170px] max-h-[48px] bg-white absolute bottom-3 left-12 font-bold'>WOMEN</button>
                         </div>
                         <div className='flex flex-col h-[500px]  justify-between'>
                             <div className='relative'>
-                                <img src="/accessories.png" alt="accessories" className='h-[242px] w-[324px] lg:w-[240px] object-cover' />
+                                <Image width={509} height={500} src="/accessories.png" alt="accessories" className='h-[242px] w-[324px] lg:w-[240px] object-cover' />
                                 <button className='w-[170px] h-[48px] bg-white absolute bottom-8 left-8 font-bold'>accessories</button>
                             </div>
                             <div className='relative'>
-                                <img src="/kids.png" alt="kids" className='h-[242px]  w-[324px] lg:w-[240px] object-cover' />
+                                <Image width={509} height={500} src="/kids.png" alt="kids" className='h-[242px]  w-[324px] lg:w-[240px] object-cover' />
                                 <button className='w-[120px] h-[48px] bg-white absolute bottom-3 left-12 font-bold'>kids</button>
                             </div>
                         </div>
@@ -38,7 +39,7 @@ const EditorsPick = () => {
 
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
